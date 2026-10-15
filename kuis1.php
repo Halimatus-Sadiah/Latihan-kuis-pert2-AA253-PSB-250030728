@@ -1,0 +1,12 @@
+<?php
+
+$angka = range(1, 20);
+
+foreach ($angka as $nilai) {
+    IF ($nilai % 3 == 0) {
+        echo "Angka : $nilai <br>";
+
+    }
+}
+
+?>
